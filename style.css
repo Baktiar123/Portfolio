@@ -292,3 +292,12 @@
       height: auto;
       padding: 5px 5px 5px 5px;
     }
+
+    .card-resume{
+      background-color: #545454;
+      font-size: 14px;
+    }
+
+    .text-yellow{
+      color : #e5e91b;
+    }
