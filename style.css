@@ -133,13 +133,15 @@
       background-color: rgba(0,0,0,.1);
       position: fixed;
       z-index: 1;
-      margin : -1% auto;
+      margin : 1% auto;
       margin-left: -0.6%;
       transition: .5s;
     }
 
     .scrolling-active .header{
       background-color: black;
+      height : 95px;
+      padding-top: 2%;
       margin-top: -2%;
       box-shadow: 0 3px 1rem rgba(0,0,0,.1);
     }
