@@ -11,8 +11,7 @@ $('.page-scroll').on('click', function(e) {
 
  e.preventDefault();
 
-});
-
+}); 
 
 $('.slider').slick({
     dots: true,
@@ -54,9 +53,6 @@ $('.slider').slick({
           slidesToScroll: 1,
           dots: false
         }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+      } 
     ]
   });
